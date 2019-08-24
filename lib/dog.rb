@@ -11,9 +11,8 @@ class Dog
     @name = name
   end
   
-  def self.save
-    @@all << self
-    binding.pry
+  def save=(dog)
+    @@all << dog
   end
   
   
