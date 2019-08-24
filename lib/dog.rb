@@ -1,8 +1,11 @@
+require 'pry'
+
 class Dog
   @@all = []
   
   def self.all
     @@all
+    binding.pry
   end
   
   def initialize(name)
