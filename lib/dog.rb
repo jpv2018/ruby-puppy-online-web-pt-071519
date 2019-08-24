@@ -16,6 +16,10 @@ class Dog
     @@all << self
   end
   
+  def clear_all
+    @@all.clear
+  end
+  
   def print_all
     @@all.each do |dog|
       puts dog
