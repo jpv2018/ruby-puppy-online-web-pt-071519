@@ -11,7 +11,7 @@ class Dog
     @name = name
   end
   
-  def save=(dog)
+  def save(dog)
     @@all << dog
   end
   
